@@ -1,27 +1,55 @@
-# GreenDevFront
+# E-BOOK
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+This project was generated with Angular CLI version 8.3.17.
 
-## Development server
+## Start
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run ```npm install``` in front-end repo to intall angular project requirements
+## Development Spring boot
 
-## Code scaffolding
+Run corner store spring boot server for.default port: ```http://localhost:8015/```. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Development Client server
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run ```ng serve```. Navigate to ```http://localhost:4200/```. server changes will automatically reload in the in the browser
 
-## Running unit tests
+### For dev
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+font-end folder is the Angular Project back-end folder is the Spring boot.
 
-## Running end-to-end tests
+### Back end fonctionnalities :
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+   - Jwt Authentification.
+-    Roles security management.
+   - Swagger documentation.
+-    Exceprtions handling.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Front end fonctionnalities :
+
+
+ -   Angular routing.
+  -  Authentifcation system.
+  -  Route guard.
+  -  Interceptors.
+  -  Products CRUD operations.
+  -  Categories CRUD operations.
+
+### API
+
+API documentation is in ```http://localhost:8090/swagger-ui.html```
+### Athors:
+  -  Youssef Ennouajeli
+  -  Aymane benhima
+  -  Oumaima chaoui
+
+
+
+
+
+## License
+
+This project is licensed under the MIT License
+
+
